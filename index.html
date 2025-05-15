@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/styles.css">
+  <title>Products</title>
+</head>
+
+<body>
+  <div
+    class="top-wrapper bg-top rounded-bl-[120px] rounded-br-[120px] mr-[83px] h-[550px] overflow-hidden flex items-center">
+    <div class="max-w-screen-xl flex align-middle w-1/2 mt-[66px]">
+      <header class="">
+        <div class="title ml-10">
+          <h1 class="text-active text-h1/[72px] font-medium">Products</h1>
+          <div class="text-text text-active/[24px] max-w-[471px] mt-5">Whether you're a seasoned researcher or
+            an enthusiast in the field, our platform offers a comprehensive selection of high-quality
+            products tailored to fuel your experiments and studies.</div>
+        </div>
+        <div class="image absolute right-0 top-0 max-w-[852px] w-1/2">
+          <img class="w-full" src="assets/images/top-products.png" alt="">
+        </div>
+      </header>
+    </div>
+  </div>
+  <section class="filters max-w-screen-xl mx-auto flex justify-between mt-[130px]">
+    <div class="filter-items flex w-2/3">
+      <form action="" class=" flex gap-6">
+        <div class="select-item relative">
+          <select name="" id=""
+            class="font-medium text-base w-[174px] block px-4 py-2 border rounded-xl appearance-none focus:outline-none cursor-pointer">
+            <option value="none cursor-pointer">Category</option>
+            <option value="cat1 cursor-pointer">Cat 1</option>
+            <option value="cat2 cursor-pointer">Cat 2</option>
+            <option value="cat3 cursor-pointer">Cat 3</option>
+          </select>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#0067FF" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.3538 6.35378L8.35378 11.3538C8.30735 11.4003 8.2522 11.4372 8.1915 11.4623C8.13081 11.4875 8.06574 11.5004 8.00003 11.5004C7.93433 11.5004 7.86926 11.4875 7.80856 11.4623C7.74786 11.4372 7.69272 11.4003 7.64628 11.3538L2.64628 6.35378C2.55246 6.25996 2.49976 6.13272 2.49976 6.00003C2.49976 5.86735 2.55246 5.7401 2.64628 5.64628C2.7401 5.55246 2.86735 5.49976 3.00003 5.49976C3.13272 5.49976 3.25996 5.55246 3.35378 5.64628L8.00003 10.2932L12.6463 5.64628C12.6927 5.59983 12.7479 5.56298 12.8086 5.53784C12.8693 5.5127 12.9343 5.49976 13 5.49976C13.0657 5.49976 13.1308 5.5127 13.1915 5.53784C13.2522 5.56298 13.3073 5.59983 13.3538 5.64628C13.4002 5.69274 13.4371 5.74789 13.4622 5.80859C13.4874 5.86928 13.5003 5.93434 13.5003 6.00003C13.5003 6.06573 13.4874 6.13079 13.4622 6.19148C13.4371 6.25218 13.4002 6.30733 13.3538 6.35378Z"
+                fill="#0067FF" />
+            </svg>
+
+          </div>
+        </div>
+        <div class="select-item relative">
+          <select name="" id=""
+            class="font-medium text-base w-[147px] block px-4 py-2 border rounded-xl appearance-none focus:outline-none cursor-pointer">
+            <option value="cat1 cursor-pointer">Filter 1</option>
+            <option value="cat2 cursor-pointer">Filter 1.1</option>
+            <option value="cat3 cursor-pointer">Filter 1.2</option>
+          </select>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#0067FF" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.3538 6.35378L8.35378 11.3538C8.30735 11.4003 8.2522 11.4372 8.1915 11.4623C8.13081 11.4875 8.06574 11.5004 8.00003 11.5004C7.93433 11.5004 7.86926 11.4875 7.80856 11.4623C7.74786 11.4372 7.69272 11.4003 7.64628 11.3538L2.64628 6.35378C2.55246 6.25996 2.49976 6.13272 2.49976 6.00003C2.49976 5.86735 2.55246 5.7401 2.64628 5.64628C2.7401 5.55246 2.86735 5.49976 3.00003 5.49976C3.13272 5.49976 3.25996 5.55246 3.35378 5.64628L8.00003 10.2932L12.6463 5.64628C12.6927 5.59983 12.7479 5.56298 12.8086 5.53784C12.8693 5.5127 12.9343 5.49976 13 5.49976C13.0657 5.49976 13.1308 5.5127 13.1915 5.53784C13.2522 5.56298 13.3073 5.59983 13.3538 5.64628C13.4002 5.69274 13.4371 5.74789 13.4622 5.80859C13.4874 5.86928 13.5003 5.93434 13.5003 6.00003C13.5003 6.06573 13.4874 6.13079 13.4622 6.19148C13.4371 6.25218 13.4002 6.30733 13.3538 6.35378Z"
+                fill="#0067FF" />
+            </svg>
+
+          </div>
+        </div>
+        <div class="select-item relative">
+          <select name="" id=""
+            class="font-medium text-base w-[147px] block px-4 py-2 border rounded-xl appearance-none focus:outline-none cursor-pointer">
+            <option value="cat1 cursor-pointer">Filter 2</option>
+            <option value="cat2 cursor-pointer">Filter 2.1</option>
+            <option value="cat3 cursor-pointer">Filter 2.2</option>
+          </select>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#0067FF" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.3538 6.35378L8.35378 11.3538C8.30735 11.4003 8.2522 11.4372 8.1915 11.4623C8.13081 11.4875 8.06574 11.5004 8.00003 11.5004C7.93433 11.5004 7.86926 11.4875 7.80856 11.4623C7.74786 11.4372 7.69272 11.4003 7.64628 11.3538L2.64628 6.35378C2.55246 6.25996 2.49976 6.13272 2.49976 6.00003C2.49976 5.86735 2.55246 5.7401 2.64628 5.64628C2.7401 5.55246 2.86735 5.49976 3.00003 5.49976C3.13272 5.49976 3.25996 5.55246 3.35378 5.64628L8.00003 10.2932L12.6463 5.64628C12.6927 5.59983 12.7479 5.56298 12.8086 5.53784C12.8693 5.5127 12.9343 5.49976 13 5.49976C13.0657 5.49976 13.1308 5.5127 13.1915 5.53784C13.2522 5.56298 13.3073 5.59983 13.3538 5.64628C13.4002 5.69274 13.4371 5.74789 13.4622 5.80859C13.4874 5.86928 13.5003 5.93434 13.5003 6.00003C13.5003 6.06573 13.4874 6.13079 13.4622 6.19148C13.4371 6.25218 13.4002 6.30733 13.3538 6.35378Z"
+                fill="#0067FF" />
+            </svg>
+
+          </div>
+        </div>
+        <div
+          class="button flex justify-between items-center font-medium text- w-[147px] cursor-pointer px-4 py-2 border rounded-xl "
+          id="openModalBtn">
+          <span>More filters</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2 5C2 4.86739 2.05268 4.74021 2.14645 4.64645C2.24021 4.55268 2.36739 4.5 2.5 4.5H4.5C4.63261 4.5 4.75979 4.55268 4.85355 4.64645C4.94732 4.74021 5 4.86739 5 5C5 5.13261 4.94732 5.25979 4.85355 5.35355C4.75979 5.44732 4.63261 5.5 4.5 5.5H2.5C2.36739 5.5 2.24021 5.44732 2.14645 5.35355C2.05268 5.25979 2 5.13261 2 5ZM13.5 10.5H11V9.5C11 9.36739 10.9473 9.24021 10.8536 9.14645C10.7598 9.05268 10.6326 9 10.5 9C10.3674 9 10.2402 9.05268 10.1464 9.14645C10.0527 9.24021 10 9.36739 10 9.5V12.5C10 12.6326 10.0527 12.7598 10.1464 12.8536C10.2402 12.9473 10.3674 13 10.5 13C10.6326 13 10.7598 12.9473 10.8536 12.8536C10.9473 12.7598 11 12.6326 11 12.5V11.5H13.5C13.6326 11.5 13.7598 11.4473 13.8536 11.3536C13.9473 11.2598 14 11.1326 14 11C14 10.8674 13.9473 10.7402 13.8536 10.6464C13.7598 10.5527 13.6326 10.5 13.5 10.5ZM8.5 10.5H2.5C2.36739 10.5 2.24021 10.5527 2.14645 10.6464C2.05268 10.7402 2 10.8674 2 11C2 11.1326 2.05268 11.2598 2.14645 11.3536C2.24021 11.4473 2.36739 11.5 2.5 11.5H8.5C8.63261 11.5 8.75979 11.4473 8.85355 11.3536C8.94732 11.2598 9 11.1326 9 11C9 10.8674 8.94732 10.7402 8.85355 10.6464C8.75979 10.5527 8.63261 10.5 8.5 10.5ZM6.5 7C6.63261 7 6.75979 6.94732 6.85355 6.85355C6.94732 6.75979 7 6.63261 7 6.5V5.5H13.5C13.6326 5.5 13.7598 5.44732 13.8536 5.35355C13.9473 5.25979 14 5.13261 14 5C14 4.86739 13.9473 4.74021 13.8536 4.64645C13.7598 4.55268 13.6326 4.5 13.5 4.5H7V3.5C7 3.36739 6.94732 3.24021 6.85355 3.14645C6.75979 3.05268 6.63261 3 6.5 3C6.36739 3 6.24021 3.05268 6.14645 3.14645C6.05268 3.24021 6 3.36739 6 3.5V6.5C6 6.63261 6.05268 6.75979 6.14645 6.85355C6.24021 6.94732 6.36739 7 6.5 7Z"
+              fill="#0067FF" />
+          </svg>
+
+        </div>
+
+
+      </form>
+    </div>
+    <div class="sort-items flex w-1/3 justify-end items-center">
+      <span class="text-text mr-24 font-medium">Sort by</span>
+      <form action="">
+        <div class="select-item relative">
+          <select name="" id=""
+            class="font-medium text-base w-[147px] block px-4 py-2 border rounded-xl appearance-none focus:outline-none cursor-pointer bg-grey">
+            <option value="cat1 cursor-pointer">Price</option>
+            <option value="cat2 cursor-pointer">Price</option>
+            <option value="cat3 cursor-pointer">Price</option>
+          </select>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#0067FF" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.3538 6.35378L8.35378 11.3538C8.30735 11.4003 8.2522 11.4372 8.1915 11.4623C8.13081 11.4875 8.06574 11.5004 8.00003 11.5004C7.93433 11.5004 7.86926 11.4875 7.80856 11.4623C7.74786 11.4372 7.69272 11.4003 7.64628 11.3538L2.64628 6.35378C2.55246 6.25996 2.49976 6.13272 2.49976 6.00003C2.49976 5.86735 2.55246 5.7401 2.64628 5.64628C2.7401 5.55246 2.86735 5.49976 3.00003 5.49976C3.13272 5.49976 3.25996 5.55246 3.35378 5.64628L8.00003 10.2932L12.6463 5.64628C12.6927 5.59983 12.7479 5.56298 12.8086 5.53784C12.8693 5.5127 12.9343 5.49976 13 5.49976C13.0657 5.49976 13.1308 5.5127 13.1915 5.53784C13.2522 5.56298 13.3073 5.59983 13.3538 5.64628C13.4002 5.69274 13.4371 5.74789 13.4622 5.80859C13.4874 5.86928 13.5003 5.93434 13.5003 6.00003C13.5003 6.06573 13.4874 6.13079 13.4622 6.19148C13.4371 6.25218 13.4002 6.30733 13.3538 6.35378Z"
+                fill="#0067FF" />
+            </svg>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="filters max-w-screen-xl mx-auto mt-[70px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+
+      <div class="bg-card rounded-lg shadow-md w-full p-6">
+        <div class="tags flex justify-end gap-x-2">
+          <div class="tag px-5 py-2 text-active bg-category rounded-[28px] font-medium">Category</div>
+          <div class="tag px-5 py-2 text-active bg-category rounded-[28px] font-medium">Category</div>
+        </div>
+        <div class="img-wrapper flex justify-center mt-6 py-2.5">
+          <img src="assets/images/card-image.png" alt="Product 1" class="">
+        </div>
+
+        <div class="p-4">
+          <h3 class="text-active font-bold text-2xl text-center">$29.99</h3>
+          <h3 class="font-bold mb-2 text-center mt-2.5 text-2xl">Product 1</h3>
+          <p class="text-text text-sm leading-6 text-center font-medium border-blue-300">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="mt-8 flex justify-center items-center">
+
+            <button
+              class="px-[100px] py-2.5  font-bold rounded-full border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Buy
+              now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-card rounded-lg shadow-md w-full p-6">
+        <div class="tags flex justify-end gap-x-2">
+          <div class="tag px-5 py-2 text-active bg-category rounded-[28px] font-medium">Category</div>
+          <div class="tag px-5 py-2 text-active bg-category rounded-[28px] font-medium">Category</div>
+        </div>
+        <div class="img-wrapper flex justify-center mt-6 py-2.5">
+          <img src="assets/images/card-image.png" alt="Product 1" class="">
+        </div>
+
+        <div class="p-4">
+          <h3 class="text-active font-bold text-2xl text-center">$29.99</h3>
+          <h3 class="font-bold mb-2 text-center mt-2.5 text-2xl">Product 1</h3>
+          <p class="text-text text-sm leading-6 text-center font-medium border-blue-300">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="mt-8 flex justify-center items-center">
+
+            <button
+              class="px-[100px] py-2.5  font-bold rounded-full border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Buy
+              now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-card rounded-lg shadow-md w-full p-6">
+        <div class="tags flex justify-end gap-x-2">
+          <div class="tag px-5 py-2 text-active bg-category rounded-[28px] font-medium">Category</div>
+          <div class="tag px-5 py-2 text-active bg-category rounded-[28px] font-medium">Category</div>
+        </div>
+        <div class="img-wrapper flex justify-center mt-6 py-2.5">
+          <img src="assets/images/card-image.png" alt="Product 1" class="">
+        </div>
+
+        <div class="p-4">
+          <h3 class="text-active font-bold text-2xl text-center">$29.99</h3>
+          <h3 class="font-bold mb-2 text-center mt-2.5 text-2xl">Product 1</h3>
+          <p class="text-text text-sm leading-6 text-center font-medium border-blue-300">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="mt-8 flex justify-center items-center">
+
+            <button
+              class="px-[100px] py-2.5  font-bold rounded-full border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Buy
+              now</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Add more product cards as needed -->
+    </div>
+  </section>
+  <!-- Modal -->
+
+  <div class="fixed inset-0 z-50  items-center bg-black bg-opacity-50 hidden" id="overlay">
+    <div class="bg-white w-full max-w-lg rounded-lg overflow-hidden shadow-lg top-0 h-screen" id="filterModal">
+      <div class="px-6 py-4">
+        <!-- Modal Header with Close Button -->
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-lg font-semibold">Filter</h2>
+          <button class="text-gray-500 hover:text-gray-700 focus:outline-none" id="closeModalBtn">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <!-- Modal Content -->
+        <div class=" overflow-y-auto ">
+          <!-- Form with Accordion -->
+          <form>
+
+            <div class="flex items-center border rounded-md bg-input">
+              <span class="">
+                <svg class="fill-content ml-4" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.9422 17.0577L14.0305 13.1468C15.1642 11.7856 15.7296 10.0398 15.6089 8.27238C15.4883 6.50499 14.6909 4.85217 13.3826 3.65772C12.0744 2.46328 10.356 1.8192 8.58492 1.85944C6.81388 1.89969 5.12653 2.62118 3.87389 3.87383C2.62125 5.12647 1.89976 6.81382 1.85951 8.58486C1.81926 10.3559 2.46334 12.0743 3.65779 13.3825C4.85223 14.6908 6.50506 15.4882 8.27244 15.6089C10.0398 15.7295 11.7857 15.1642 13.1469 14.0304L17.0578 17.9421C17.1159 18.0002 17.1848 18.0463 17.2607 18.0777C17.3366 18.1091 17.4179 18.1253 17.5 18.1253C17.5821 18.1253 17.6634 18.1091 17.7393 18.0777C17.8152 18.0463 17.8841 18.0002 17.9422 17.9421C18.0003 17.8841 18.0463 17.8151 18.0777 17.7392C18.1092 17.6634 18.1253 17.5821 18.1253 17.4999C18.1253 17.4178 18.1092 17.3365 18.0777 17.2606C18.0463 17.1848 18.0003 17.1158 17.9422 17.0577ZM3.125 8.74993C3.125 7.63741 3.4549 6.54988 4.07298 5.62485C4.69106 4.69982 5.56957 3.97885 6.5974 3.55311C7.62524 3.12737 8.75624 3.01598 9.84738 3.23302C10.9385 3.45006 11.9408 3.98579 12.7275 4.77246C13.5141 5.55913 14.0499 6.56141 14.2669 7.65255C14.484 8.74369 14.3726 9.87469 13.9468 10.9025C13.5211 11.9304 12.8001 12.8089 11.8751 13.427C10.9501 14.045 9.86252 14.3749 8.75 14.3749C7.25866 14.3733 5.82888 13.7801 4.77435 12.7256C3.71981 11.6711 3.12665 10.2413 3.125 8.74993Z"
+                    fill="#111111" />
+                </svg>
+              </span>
+              <input type="text" name="search" placeholder="Find Product"
+                class="px-3 py-2 w-full focus:outline-none bg-input" />
+            </div>
+
+            <div class="accordion">
+              <!-- Accordion Item 1 -->
+              <div class="accordion-item">
+                <input type="checkbox" id="item1" class="hidden" />
+                <label for="item1"
+                  class="accordion-title text-text cursor-pointer py-2 border-b border-gray-200 flex justify-between items-center">
+                  Category
+                  <svg class="w-4 h-4 fill-current transform accordion-icon" width="18" height="10" viewBox="0 0 18 10"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.0306 1.53055L9.53061 9.03055C9.46096 9.10029 9.37824 9.15561 9.2872 9.19335C9.19615 9.23109 9.09855 9.25052 8.99999 9.25052C8.90143 9.25052 8.80383 9.23109 8.71278 9.19335C8.62174 9.15561 8.53902 9.10029 8.46936 9.03055L0.969365 1.53055C0.828634 1.38982 0.749573 1.19895 0.749573 0.999929C0.749573 0.800906 0.828634 0.610034 0.969365 0.469303C1.1101 0.328573 1.30097 0.249512 1.49999 0.249512C1.69901 0.249512 1.88988 0.328573 2.03061 0.469303L8.99999 7.43962L15.9694 0.469303C16.039 0.399621 16.1218 0.344345 16.2128 0.306633C16.3039 0.268921 16.4014 0.249512 16.5 0.249512C16.5985 0.249512 16.6961 0.268921 16.7872 0.306633C16.8782 0.344345 16.9609 0.399621 17.0306 0.469303C17.1003 0.538986 17.1556 0.621712 17.1933 0.712756C17.231 0.803801 17.2504 0.901383 17.2504 0.999929C17.2504 1.09847 17.231 1.19606 17.1933 1.2871C17.1556 1.37815 17.1003 1.46087 17.0306 1.53055Z"
+                      fill="#111111" />
+                  </svg>
+                </label>
+                <div class="accordion-content px-4 pb-2">
+                  <!-- Сontent for item 1 -->
+                  <div class="name text-text field">
+                    <input name="category1" type="checkbox" id="category1" class=" border rounded-md px-3 py-2 mb-2" />
+                    <label for="category1">Cat 1</label>
+                  </div>
+                  <div class="name text-text field">
+                    <input name="category2" type="checkbox" id="category2" class=" border rounded-md px-3 py-2 mb-2" />
+                    <label for="category2">Cat 2</label>
+                  </div>
+                  <div class="name text-text field">
+                    <input name="category3" type="checkbox" id="category3" class=" border rounded-md px-3 py-2 mb-2" />
+                    <label for="category3">Cat 3</label>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 2 -->
+              <div class="accordion-item">
+                <input type="checkbox" id="item2" class="hidden" />
+                <label for="item2"
+                  class="accordion-title cursor-pointer block py-2 border-b border-gray-200 flex justify-between items-center">
+                  Filter 1
+                  <svg class="w-4 h-4 fill-current transform accordion-icon" width="18" height="10" viewBox="0 0 18 10"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.0306 1.53055L9.53061 9.03055C9.46096 9.10029 9.37824 9.15561 9.2872 9.19335C9.19615 9.23109 9.09855 9.25052 8.99999 9.25052C8.90143 9.25052 8.80383 9.23109 8.71278 9.19335C8.62174 9.15561 8.53902 9.10029 8.46936 9.03055L0.969365 1.53055C0.828634 1.38982 0.749573 1.19895 0.749573 0.999929C0.749573 0.800906 0.828634 0.610034 0.969365 0.469303C1.1101 0.328573 1.30097 0.249512 1.49999 0.249512C1.69901 0.249512 1.88988 0.328573 2.03061 0.469303L8.99999 7.43962L15.9694 0.469303C16.039 0.399621 16.1218 0.344345 16.2128 0.306633C16.3039 0.268921 16.4014 0.249512 16.5 0.249512C16.5985 0.249512 16.6961 0.268921 16.7872 0.306633C16.8782 0.344345 16.9609 0.399621 17.0306 0.469303C17.1003 0.538986 17.1556 0.621712 17.1933 0.712756C17.231 0.803801 17.2504 0.901383 17.2504 0.999929C17.2504 1.09847 17.231 1.19606 17.1933 1.2871C17.1556 1.37815 17.1003 1.46087 17.0306 1.53055Z"
+                      fill="#111111" />
+                  </svg>
+
+                </label>
+                <div class="accordion-content px-4 pb-2">
+                  <!-- Сontent for item 2 -->
+                  <input type="text" placeholder="Input 2" class="w-full border rounded-md px-3 py-2 mb-2" />
+                  <textarea placeholder="Textarea 2" rows="3"
+                    class="w-full border rounded-md px-3 py-2 mb-2"></textarea>
+                </div>
+              </div>
+              <!-- Accordion Item 3 -->
+              <div class="accordion-item">
+                <input type="checkbox" id="item3" class="hidden" />
+                <label for="item3"
+                  class="accordion-title cursor-pointer block py-2 border-b border-gray-200 flex justify-between items-center">
+                  Filter 2
+                  <svg class="w-4 h-4 fill-current transform accordion-icon" width="18" height="10" viewBox="0 0 18 10"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.0306 1.53055L9.53061 9.03055C9.46096 9.10029 9.37824 9.15561 9.2872 9.19335C9.19615 9.23109 9.09855 9.25052 8.99999 9.25052C8.90143 9.25052 8.80383 9.23109 8.71278 9.19335C8.62174 9.15561 8.53902 9.10029 8.46936 9.03055L0.969365 1.53055C0.828634 1.38982 0.749573 1.19895 0.749573 0.999929C0.749573 0.800906 0.828634 0.610034 0.969365 0.469303C1.1101 0.328573 1.30097 0.249512 1.49999 0.249512C1.69901 0.249512 1.88988 0.328573 2.03061 0.469303L8.99999 7.43962L15.9694 0.469303C16.039 0.399621 16.1218 0.344345 16.2128 0.306633C16.3039 0.268921 16.4014 0.249512 16.5 0.249512C16.5985 0.249512 16.6961 0.268921 16.7872 0.306633C16.8782 0.344345 16.9609 0.399621 17.0306 0.469303C17.1003 0.538986 17.1556 0.621712 17.1933 0.712756C17.231 0.803801 17.2504 0.901383 17.2504 0.999929C17.2504 1.09847 17.231 1.19606 17.1933 1.2871C17.1556 1.37815 17.1003 1.46087 17.0306 1.53055Z"
+                      fill="#111111" />
+                  </svg>
+
+                </label>
+                <div class="accordion-content px-4 pb-2">
+                  <!-- Сontent for item 3 -->
+                  <input type="text" placeholder="Input 2" class="w-full border rounded-md px-3 py-2 mb-2" />
+                  <textarea placeholder="Textarea 2" rows="3"
+                    class="w-full border rounded-md px-3 py-2 mb-2"></textarea>
+                </div>
+              </div>
+
+              <!-- Accordion Item 4 -->
+              <div class="accordion-item">
+                <input type="checkbox" id="item4" class="hidden" />
+                <label for="item4"
+                  class="accordion-title cursor-pointer py-2 border-b border-gray-200 flex justify-between items-center">
+                  Filter 3
+                  <svg class="w-4 h-4 fill-current transform accordion-icon" width="18" height="10" viewBox="0 0 18 10"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.0306 1.53055L9.53061 9.03055C9.46096 9.10029 9.37824 9.15561 9.2872 9.19335C9.19615 9.23109 9.09855 9.25052 8.99999 9.25052C8.90143 9.25052 8.80383 9.23109 8.71278 9.19335C8.62174 9.15561 8.53902 9.10029 8.46936 9.03055L0.969365 1.53055C0.828634 1.38982 0.749573 1.19895 0.749573 0.999929C0.749573 0.800906 0.828634 0.610034 0.969365 0.469303C1.1101 0.328573 1.30097 0.249512 1.49999 0.249512C1.69901 0.249512 1.88988 0.328573 2.03061 0.469303L8.99999 7.43962L15.9694 0.469303C16.039 0.399621 16.1218 0.344345 16.2128 0.306633C16.3039 0.268921 16.4014 0.249512 16.5 0.249512C16.5985 0.249512 16.6961 0.268921 16.7872 0.306633C16.8782 0.344345 16.9609 0.399621 17.0306 0.469303C17.1003 0.538986 17.1556 0.621712 17.1933 0.712756C17.231 0.803801 17.2504 0.901383 17.2504 0.999929C17.2504 1.09847 17.231 1.19606 17.1933 1.2871C17.1556 1.37815 17.1003 1.46087 17.0306 1.53055Z"
+                      fill="#111111" />
+                  </svg>
+
+                </label>
+                <div class="accordion-content px-4 pb-2 flex gap-3">
+                  <div class="flex items-center space-x-2 bg-top rounded-md px-2 py-1">
+
+                    <div class="text-sm font-medium text-gray-800">Longevity</div>
+
+                    <button class="text-gray-500 hover:text-red-600 focus:outline-none">&times;</button>
+                  </div>
+                  <div class="flex items-center space-x-2 bg-top rounded-md px-2 py-1">
+
+                    <div class="text-sm font-medium text-gray-800">Fat loss</div>
+
+                  </div>
+                  <div class="flex items-center space-x-2 bg-top rounded-md px-2 py-1">
+
+                    <div class="text-sm font-medium text-gray-800">Muscle building</div>
+
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <!-- Button at the bottom -->
+            <div class="mt-4 flex justify-end">
+              <button type="submit"
+                class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none"
+                id="submitBtn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script>
+    const accordions = document.querySelectorAll('.accordion-item');
+
+    accordions.forEach((accordion) => {
+      const checkbox = accordion.querySelector('input[type="checkbox"]');
+      const icon = accordion.querySelector('.accordion-icon');
+
+      checkbox.addEventListener('change', () => {
+        if (checkbox.checked) {
+          accordion.classList.add('open');
+          icon.classList.add('rotate-180');
+          icon.querySelector('path').setAttribute('fill', '#0067FF');
+          accordion.querySelector('label').classList.remove('border-b');
+        } else {
+          accordion.classList.remove('open');
+          icon.classList.remove('rotate-180');
+          icon.querySelector('path').setAttribute('fill', '#111111');
+          accordion.querySelector('label').classList.add('border-b');
+        }
+      });
+    });
+
+    // Modal 
+
+
+
+    // Get the modal and overlay elements
+    const modal = document.getElementById('filterModal');
+    const overlay = document.getElementById('overlay');
+
+    // Get the button that opens the modal
+    const openModalBtn = document.getElementById('openModalBtn');
+
+    // Get the close button and submit button inside the modal
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const submitBtn = document.getElementById('submitBtn');
+
+    modal.addEventListener('click', function (event) {
+      event.stopPropagation();
+    });
+    // Function to open the modal
+    function openModal() {
+      modal.classList.remove('hidden');
+      overlay.classList.remove('hidden');
+    }
+
+    // Function to close the modal
+    function closeModal() {
+      modal.classList.add('hidden');
+      overlay.classList.add('hidden');
+    }
+
+    // Event listener for opening the modal
+    openModalBtn.addEventListener('click', openModal);
+
+    // Event listeners for closing the modal
+    closeModalBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', closeModal);
+    submitBtn.addEventListener('click', (event) => {
+      event.preventDefault();
+      closeModal();
+    });
+  </script>
+
+
+</body>
+
+</html>
